@@ -1,0 +1,15 @@
+train: /content/data/images/train # train images (relative to 'path') 118287 images
+val: /content/data/images/val # val images (relative to 'path') 5000 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: "dui"
+  1: "duinumero"
+  2: "duiapellidos"
+  3: "duinombres"
+  4: "duinacimiento"
+  5: "duigenero"
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x-seg.zip
